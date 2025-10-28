@@ -1,68 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Menuka is Here</title>
-  <style>
-    /* Import Google Fonts */
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ceyline Group | Empowering the Maritime Future</title>
+    <meta name="description" content="Leading the maritime industry with innovative shipping, education, crew management, and logistics solutions. Global excellence in maritime services." />
+    <meta name="author" content="Ceyline Group" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    /* Reset and base styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <meta property="og:title" content="Ceyline Group | Empowering the Maritime Future" />
+    <meta property="og:description" content="Leading the maritime industry with innovative shipping, education, crew management, and logistics solutions." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #1f1c2c, #928dab);
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-      padding: 20px;
-      animation: fadeIn 2s ease-in;
-    }
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      max-width: 800px;
-      line-height: 1.4;
-      background: linear-gradient(to right, #ff6a00, #ee0979);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: slideUp 1s ease-out;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    @keyframes slideUp {
-      from { transform: translateY(40px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <h1>Don't be afraid,<br> Menuka is here.</h1>
-
-  <script>
-    // Optional: You could add interactivity here
-    console.log("Welcome! Menuka is ready.");
-  </script>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
