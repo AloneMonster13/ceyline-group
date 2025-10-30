@@ -76,10 +76,7 @@ const Index = () => {
               About Ceyline Group
             </h2>
             <p className="text-base md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Ceyline Group stands at the forefront of the maritime industry, delivering unparalleled excellence 
-              in shipping operations, maritime education, crew management, and logistics. With decades of expertise 
-              and a commitment to innovation, we shape the future of global maritime services through cutting-edge 
-              technology and sustainable practices.
+              Ceyline Group stands at the forefront of the maritime industry, delivering unparalleled excellence in shipping operations, maritime education, crew management, logistics, healthcare, and leisure. With decades of expertise and a commitment to innovation, we shape the future of global maritime and related services through cutting-edge technology and sustainable practices.
             </p>
           </div>
 
