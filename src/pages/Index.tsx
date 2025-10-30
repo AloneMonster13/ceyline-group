@@ -18,6 +18,7 @@ import ceylineLogo from "@/assets/ceyline-logo.png";
 import ceylineLogoWhite from "@/assets/ceyline-logo-white.png";
 import constructionBanner from "@/assets/construction-banner.jpeg";
 import sectorsDiagram from "@/assets/sectors-diagram.png";
+import { SiTiktok } from "react-icons/si";
 
 const Index = () => {
   return (
@@ -95,70 +96,76 @@ const Index = () => {
       </section>
 
       {/* Connect With Us Section */}
-      <section className="py-12 md:py-20 px-4 bg-background">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 md:mb-8 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            Connect With Us
-          </h2>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button 
-            size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-4 md:px-8 md:py-6 text-base md:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
-            onClick={() => window.location.href = 'mailto:corporate@ceyline-group.lk'}
-          >
-            <Mail className="w-5 h-5 mr-2" />
-            Email Us
-          </Button>
-          <Button 
-            size="lg"
-            className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-6 py-4 md:px-8 md:py-6 text-base md:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
-            onClick={() => window.open('https://www.ceyline-group.lk/', '_blank')}
-          >
-            <Globe className="w-5 h-5 mr-2" />
-            Visit Website
-          </Button>
-          </div>
-          
-          <div className="mt-8 max-w-2xl mx-auto">
-            <div className="grid grid-cols-2 gap-4">
-              <SocialIcon 
-                icon={Facebook} 
-                href="https://www.facebook.com/people/Ceyline-Group/61560848647512/" 
-                label="Facebook"
-                platform="facebook"
-              />
-              <SocialIcon 
-                icon={Instagram} 
-                href="https://www.instagram.com/ceyline_group/" 
-                label="Instagram"
-                platform="instagram"
-              />
-              <SocialIcon 
-                icon={Linkedin} 
-                href="https://www.linkedin.com/company/ceyline-group/posts/?feedView=all" 
-                label="LinkedIn"
-                platform="linkedin"
-              />
-              <SocialIcon 
-                icon={Youtube} 
-                href="https://www.youtube.com/channel/UCZ1DztnEU98GccGKHdo4kJg" 
-                label="YouTube"
-                platform="youtube"
-              />
-              <div className="col-span-2 flex justify-center">
-                <div className="w-1/2">
-                  <SocialIcon 
-                    icon={Music} 
-                    href="https://www.tiktok.com/@ceyline_group" 
-                    label="TikTok"
-                    platform="tiktok"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+<section className="py-12 md:py-20 px-4 bg-background">
+  <div className="max-w-3xl mx-auto text-center">
+    <h2 className="text-3xl md:text-5xl font-bold mb-6 md:mb-8 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+      Connect With Us
+    </h2>
+
+    {/* Contact Buttons */}
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <Button 
+        size="lg"
+        className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-4 md:px-8 md:py-6 text-base md:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+        onClick={() => window.location.href = 'mailto:corporate@ceyline-group.lk'}
+      >
+        <Mail className="w-5 h-5 mr-2" />
+        Email Us
+      </Button>
+      <Button 
+        size="lg"
+        className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white px-6 py-4 md:px-8 md:py-6 text-base md:text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+        onClick={() => window.open('https://www.ceyline-group.lk/', '_blank')}
+      >
+        <Globe className="w-5 h-5 mr-2" />
+        Visit Website
+      </Button>
+    </div>
+
+    {/* Social Icons */}
+    <div className="mt-8 max-w-2xl mx-auto">
+      <div className="grid grid-cols-2 gap-4">
+        <SocialIcon 
+          icon={Facebook} 
+          href="https://www.facebook.com/people/Ceyline-Group/61560848647512/" 
+          label="Facebook"
+          platform="facebook"
+        />
+        <SocialIcon 
+          icon={Instagram} 
+          href="https://www.instagram.com/ceyline_group/" 
+          label="Instagram"
+          platform="instagram"
+        />
+        <SocialIcon 
+          icon={Linkedin} 
+          href="https://www.linkedin.com/company/ceyline-group/posts/?feedView=all" 
+          label="LinkedIn"
+          platform="linkedin"
+        />
+        <SocialIcon 
+          icon={Youtube} 
+          href="https://www.youtube.com/channel/UCZ1DztnEU98GccGKHdo4kJg" 
+          label="YouTube"
+          platform="youtube"
+        />
+      </div>
+
+      {/* TikTok Centered */}
+      <div className="col-span-2 flex justify-center mt-6">
+        <div className="w-1/2 flex justify-center">
+          <SocialIcon 
+            icon={SiTiktok} 
+            href="https://www.tiktok.com/@ceyline_group" 
+            label="TikTok"
+            platform="tiktok"
+          />
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="bg-gradient-to-br from-primary via-primary/95 to-secondary py-8 md:py-12 px-4">
