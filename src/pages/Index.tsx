@@ -19,6 +19,8 @@ import ceylineLogoWhite from "@/assets/ceyline-logo-white.png";
 import constructionBanner from "@/assets/construction-banner.jpeg";
 import sectorsDiagram from "@/assets/sectors-diagram.png";
 import { SiTiktok } from "react-icons/si";
+import Ceyline from "@/assets/Ceyline.jpg";
+import { assert } from "console";
 
 const Index = () => {
   return (
@@ -82,10 +84,19 @@ const Index = () => {
           </div>
 
           {/* Business Sectors Card */}
-          <Card className="max-w-4xl mx-auto mt-8 md:mt-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 animate-fade-in">
+          {/* <Card className="max-w-4xl mx-auto mt-8 md:mt-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 animate-fade-in">
             <CardContent className="p-4 md:p-8">
               <img 
                 src={sectorsDiagram} 
+                alt="Ceyline Group Business Sectors - Marine, Logistic, Education, Leisure, and Healthcare"
+                className="w-full h-auto rounded-lg object-contain"
+              />
+            </CardContent>
+          </Card> */}
+          <Card className="max-w-4xl mx-auto mt-8 md:mt-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 animate-fade-in">
+            <CardContent className="p-4 md:p-8">
+              <img 
+                src={Ceyline} 
                 alt="Ceyline Group Business Sectors - Marine, Logistic, Education, Leisure, and Healthcare"
                 className="w-full h-auto rounded-lg object-contain"
               />
