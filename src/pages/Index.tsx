@@ -51,7 +51,7 @@ const Index = () => {
           />
           <h1 className="text-3xl md:text-6xl font-bold text-white mb-4 md:mb-6 leading-tight animate-fade-in">
             <span className="inline-block animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              Most Diversified &
+              Most Diversified 
             </span>
             <br />
             <span className="inline-block animate-slide-up bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent" style={{ animationDelay: '0.4s' }}>
@@ -59,7 +59,7 @@ const Index = () => {
             </span>
           </h1>
           <p className="text-lg md:text-2xl text-white/90 mb-6 md:mb-8 font-light">
-            Inspiring leadership in everyone we touch, to build a sustainable and equitable future for all
+            Sri lanka’s gateway for global maritime & logistics.
           </p>
           <Button 
             size="lg"
@@ -79,7 +79,7 @@ const Index = () => {
               About Ceyline Group
             </h2>
             <p className="text-base md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Ceyline Group stands at the forefront of the maritime industry, delivering unparalleled excellence in shipping operations, maritime education, crew management, logistics, healthcare, and leisure. With decades of expertise and a commitment to innovation, we shape the future of global maritime and related services through cutting-edge technology and sustainable practices.
+              Ceyline Group stands at the forefront of the maritime industry, delivering unparalleled excellence in shipping operations, maritime education, and crew management. Logistics and supply chain capabilities, shaping the future of global maritime.A growing presence in healthcare and leisure. With decades of expertise and a commitment to innovation, we shape the future of global maritime and related services through cutting-edge technology and sustainable practices.
             </p>
           </div>
 
