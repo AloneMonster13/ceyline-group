@@ -83,16 +83,14 @@ const Index = () => {
             </p>
           </div>
 
-          {/* Business Sectors Card */}
-          {/* <Card className="max-w-4xl mx-auto mt-8 md:mt-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 animate-fade-in">
-            <CardContent className="p-4 md:p-8">
-              <img 
-                src={sectorsDiagram} 
-                alt="Ceyline Group Business Sectors - Marine, Logistic, Education, Leisure, and Healthcare"
-                className="w-full h-auto rounded-lg object-contain"
-              />
-            </CardContent>
-          </Card> */}
+ <h3 className="text-base sm:text-lg md:text-xl font-semibold mt-4 sm:mt-6 md:mt-8 text-center px-3 leading-relaxed bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 bg-clip-text text-transparent">
+  Inspiring leadership in everyone we touch, to build a sustainable and equitable future for all.
+</h3>
+
+
+
+
+          
           <Card className="max-w-4xl mx-auto mt-8 md:mt-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 animate-fade-in">
             <CardContent className="p-4 md:p-8">
               <img 
